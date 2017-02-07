@@ -4,3 +4,6 @@ machine:
 dependencies:
   cache_directories:
     - "node_modules"
+test:
+  pre:
+    - npm run build
